@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373598551A5ED08800344AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373598541A5ED08800344AB5 /* AppDelegate.swift */; };
+		373598571A5ED08800344AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373598561A5ED08800344AB5 /* ViewController.swift */; };
+		3735985A1A5ED08800344AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373598581A5ED08800344AB5 /* Main.storyboard */; };
+		3735985C1A5ED08800344AB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3735985B1A5ED08800344AB5 /* Images.xcassets */; };
+		3735985F1A5ED08800344AB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3735985D1A5ED08800344AB5 /* LaunchScreen.xib */; };
+		3735986B1A5ED08900344AB5 /* SimpleLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3735986A1A5ED08900344AB5 /* SimpleLoginTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373598651A5ED08900344AB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373598471A5ED08800344AB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3735984E1A5ED08800344AB5;
+			remoteInfo = SimpleLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3735984F1A5ED08800344AB5 /* SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		373598531A5ED08800344AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373598541A5ED08800344AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373598561A5ED08800344AB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		373598591A5ED08800344AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3735985B1A5ED08800344AB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3735985E1A5ED08800344AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		373598641A5ED08900344AB5 /* SimpleLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373598691A5ED08900344AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3735986A1A5ED08900344AB5 /* SimpleLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3735984C1A5ED08800344AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373598611A5ED08900344AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373598461A5ED08800344AB5 = {
+			isa = PBXGroup;
+			children = (
+				373598511A5ED08800344AB5 /* SimpleLogin */,
+				373598671A5ED08900344AB5 /* SimpleLoginTests */,
+				373598501A5ED08800344AB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373598501A5ED08800344AB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3735984F1A5ED08800344AB5 /* SimpleLogin.app */,
+				373598641A5ED08900344AB5 /* SimpleLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373598511A5ED08800344AB5 /* SimpleLogin */ = {
+			isa = PBXGroup;
+			children = (
+				373598541A5ED08800344AB5 /* AppDelegate.swift */,
+				373598561A5ED08800344AB5 /* ViewController.swift */,
+				373598581A5ED08800344AB5 /* Main.storyboard */,
+				3735985B1A5ED08800344AB5 /* Images.xcassets */,
+				3735985D1A5ED08800344AB5 /* LaunchScreen.xib */,
+				373598521A5ED08800344AB5 /* Supporting Files */,
+			);
+			path = SimpleLogin;
+			sourceTree = "<group>";
+		};
+		373598521A5ED08800344AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				373598531A5ED08800344AB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		373598671A5ED08900344AB5 /* SimpleLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				3735986A1A5ED08900344AB5 /* SimpleLoginTests.swift */,
+				373598681A5ED08900344AB5 /* Supporting Files */,
+			);
+			path = SimpleLoginTests;
+			sourceTree = "<group>";
+		};
+		373598681A5ED08900344AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				373598691A5ED08900344AB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3735984E1A5ED08800344AB5 /* SimpleLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3735986E1A5ED08900344AB5 /* Build configuration list for PBXNativeTarget "SimpleLogin" */;
+			buildPhases = (
+				3735984B1A5ED08800344AB5 /* Sources */,
+				3735984C1A5ED08800344AB5 /* Frameworks */,
+				3735984D1A5ED08800344AB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLogin;
+			productName = SimpleLogin;
+			productReference = 3735984F1A5ED08800344AB5 /* SimpleLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		373598631A5ED08900344AB5 /* SimpleLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373598711A5ED08900344AB5 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */;
+			buildPhases = (
+				373598601A5ED08900344AB5 /* Sources */,
+				373598611A5ED08900344AB5 /* Frameworks */,
+				373598621A5ED08900344AB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373598661A5ED08900344AB5 /* PBXTargetDependency */,
+			);
+			name = SimpleLoginTests;
+			productName = SimpleLoginTests;
+			productReference = 373598641A5ED08900344AB5 /* SimpleLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373598471A5ED08800344AB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Michael Fussenegger";
+				TargetAttributes = {
+					3735984E1A5ED08800344AB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					373598631A5ED08900344AB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3735984E1A5ED08800344AB5;
+					};
+				};
+			};
+			buildConfigurationList = 3735984A1A5ED08800344AB5 /* Build configuration list for PBXProject "SimpleLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373598461A5ED08800344AB5;
+			productRefGroup = 373598501A5ED08800344AB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3735984E1A5ED08800344AB5 /* SimpleLogin */,
+				373598631A5ED08900344AB5 /* SimpleLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3735984D1A5ED08800344AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3735985A1A5ED08800344AB5 /* Main.storyboard in Resources */,
+				3735985F1A5ED08800344AB5 /* LaunchScreen.xib in Resources */,
+				3735985C1A5ED08800344AB5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373598621A5ED08900344AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3735984B1A5ED08800344AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373598571A5ED08800344AB5 /* ViewController.swift in Sources */,
+				373598551A5ED08800344AB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373598601A5ED08900344AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3735986B1A5ED08900344AB5 /* SimpleLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373598661A5ED08900344AB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3735984E1A5ED08800344AB5 /* SimpleLogin */;
+			targetProxy = 373598651A5ED08900344AB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		373598581A5ED08800344AB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373598591A5ED08800344AB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3735985D1A5ED08800344AB5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3735985E1A5ED08800344AB5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3735986C1A5ED08900344AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3735986D1A5ED08900344AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3735986F1A5ED08900344AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		373598701A5ED08900344AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		373598721A5ED08900344AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleLogin.app/SimpleLogin";
+			};
+			name = Debug;
+		};
+		373598731A5ED08900344AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleLogin.app/SimpleLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3735984A1A5ED08800344AB5 /* Build configuration list for PBXProject "SimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3735986C1A5ED08900344AB5 /* Debug */,
+				3735986D1A5ED08900344AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3735986E1A5ED08900344AB5 /* Build configuration list for PBXNativeTarget "SimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3735986F1A5ED08900344AB5 /* Debug */,
+				373598701A5ED08900344AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		373598711A5ED08900344AB5 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373598721A5ED08900344AB5 /* Debug */,
+				373598731A5ED08900344AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373598471A5ED08800344AB5 /* Project object */;
+}
