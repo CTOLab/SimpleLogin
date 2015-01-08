@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3734D24A1A5F1CE300060CDA /* AppDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734D2491A5F1CE300060CDA /* AppDemoViewController.swift */; };
 		373598551A5ED08800344AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373598541A5ED08800344AB5 /* AppDelegate.swift */; };
 		373598571A5ED08800344AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373598561A5ED08800344AB5 /* ViewController.swift */; };
 		3735985A1A5ED08800344AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373598581A5ED08800344AB5 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3734D2491A5F1CE300060CDA /* AppDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDemoViewController.swift; sourceTree = "<group>"; };
 		3735984F1A5ED08800344AB5 /* SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		373598531A5ED08800344AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		373598541A5ED08800344AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				3735985B1A5ED08800344AB5 /* Images.xcassets */,
 				3735985D1A5ED08800344AB5 /* LaunchScreen.xib */,
 				373598521A5ED08800344AB5 /* Supporting Files */,
+				3734D2491A5F1CE300060CDA /* AppDemoViewController.swift */,
 			);
 			path = SimpleLogin;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3734D24A1A5F1CE300060CDA /* AppDemoViewController.swift in Sources */,
 				373598571A5ED08800344AB5 /* ViewController.swift in Sources */,
 				373598551A5ED08800344AB5 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				373598701A5ED08900344AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		373598711A5ED08900344AB5 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				373598731A5ED08900344AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
