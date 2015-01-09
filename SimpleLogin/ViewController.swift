@@ -17,7 +17,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        textUserName.delegate = self
+        textPwd.delegate = self
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -35,13 +36,14 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     func textFieldShouldReturn(textField: UITextField!) -> Bool // called when 'return' key pressed. return NO to ignore.
     {
-        textField.resignFirstResponder()
-        return true;
+        if (textField === textUserName) {
+            textPwd.becomeFirstResponder()
+        }else if (textField === textPwd) {
+            textPwd.resignFirstResponder()
+        }
+        return true
     }
     
-    @IBAction func setTexFieldDelegate(sender: UITextField) {
-        sender.delegate = self
-    }
 
     @IBAction func registrationTapped(sender: UIButton) {
         // TODO: Registration
@@ -51,4 +53,3 @@ class ViewController: UIViewController,UITextFieldDelegate {
 
 
 }
-

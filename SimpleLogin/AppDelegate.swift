@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Authenticate at PARSE
+        Parse.setApplicationId("jVf3DZzgyXC8eMFLJVuaJUTUsTHjqsgHCexYzsxM", clientKey: "PrTpxLiYlEwjVQ6Aku6kFl5d1rkn4jZN2SOHeuBK")
+        //use Parse Analytics to trac kappopened
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
         return true
     }
 
