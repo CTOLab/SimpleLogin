@@ -38,10 +38,7 @@ class ViewController: UIViewController {
         return false;
     }
     
-    @IBAction func logoutTapped2() {
-        // TODO: Logout process
-        println("Tapped Login")
-    }
+
 
 
 }

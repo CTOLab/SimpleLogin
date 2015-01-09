@@ -35,11 +35,7 @@ class AppDemoViewController: UIViewController {
         println("Tapped Logout1")
         self.performSegueWithIdentifier("showLogin", sender: self)
     }
-    @IBAction func logoutTapped2() {
-        // TODO: Logout process
-        println("Tapped Logout")
-        self.performSegueWithIdentifier("showLogin", sender: self)
-    }
+    
     /*
     // MARK: - Navigation
 
