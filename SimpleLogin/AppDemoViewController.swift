@@ -18,11 +18,11 @@ class AppDemoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-   /* override func viewDidAppear(animated: Bool) {
-        println("Oja")
-            self.performSegueWithIdentifier("showLogin", sender: self)
+    override func viewDidAppear(animated: Bool) {
+        //check if user is loged in
+        self.performSegueWithIdentifier("showLogin", sender: self)
         
-    }*/
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

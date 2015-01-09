@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet var textUserName: UITextField!
     @IBOutlet var textPwd: UITextField!
@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -33,12 +35,19 @@ class ViewController: UIViewController {
     
     func textFieldShouldReturn(textField: UITextField!) -> Bool // called when 'return' key pressed. return NO to ignore.
     {
-        println("return")
-        self.view.endEditing(true)
-        return false;
+        textField.resignFirstResponder()
+        return true;
     }
     
+    @IBAction func setTexFieldDelegate(sender: UITextField) {
+        sender.delegate = self
+    }
 
+    @IBAction func registrationTapped(sender: UIButton) {
+        // TODO: Registration
+        println("Tapped Registration")
+        self.performSegueWithIdentifier("showRegistration", sender: self)
+    }
 
 
 }
