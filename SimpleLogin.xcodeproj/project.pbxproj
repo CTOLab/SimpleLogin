@@ -14,6 +14,7 @@
 		3735985C1A5ED08800344AB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3735985B1A5ED08800344AB5 /* Images.xcassets */; };
 		3735985F1A5ED08800344AB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3735985D1A5ED08800344AB5 /* LaunchScreen.xib */; };
 		3735986B1A5ED08900344AB5 /* SimpleLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3735986A1A5ED08900344AB5 /* SimpleLoginTests.swift */; };
+		37B44BB71A5FE20100CCDA12 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B44BB61A5FE20100CCDA12 /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		373598641A5ED08900344AB5 /* SimpleLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		373598691A5ED08900344AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3735986A1A5ED08900344AB5 /* SimpleLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginTests.swift; sourceTree = "<group>"; };
+		37B44BB61A5FE20100CCDA12 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		373598461A5ED08800344AB5 = {
 			isa = PBXGroup;
 			children = (
+				37B44BB61A5FE20100CCDA12 /* RegistrationViewController.swift */,
 				373598511A5ED08800344AB5 /* SimpleLogin */,
 				373598671A5ED08900344AB5 /* SimpleLoginTests */,
 				373598501A5ED08800344AB5 /* Products */,
@@ -218,6 +221,7 @@
 			files = (
 				3734D24A1A5F1CE300060CDA /* AppDemoViewController.swift in Sources */,
 				373598571A5ED08800344AB5 /* ViewController.swift in Sources */,
+				37B44BB71A5FE20100CCDA12 /* RegistrationViewController.swift in Sources */,
 				373598551A5ED08800344AB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
