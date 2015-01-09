@@ -37,6 +37,11 @@ class ViewController: UIViewController {
         self.view.endEditing(true)
         return false;
     }
+    
+    @IBAction func logoutTapped2() {
+        // TODO: Logout process
+        println("Tapped Login")
+    }
 
 
 }
