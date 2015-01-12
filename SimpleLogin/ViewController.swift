@@ -44,6 +44,25 @@ class ViewController: UIViewController,UITextFieldDelegate {
         return true
     }
     
+    @IBAction func loginTapped() {
+        
+        if (checkTextField.checkUsernameTextentry(textUserName.text))
+        {
+            if (checkTextField.checkPwdTextentry(textPwd.text))
+            {
+                println("Parse Login")
+            }
+            else
+            {
+                println(checkTextField.errorMsg())
+            }
+        }
+        else
+        {
+            println(checkTextField.errorMsg())
+        }
+        
+    }
 
     @IBAction func registrationTapped(sender: UIButton) {
         // TODO: Registration

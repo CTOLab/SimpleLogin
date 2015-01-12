@@ -20,7 +20,7 @@ class AppDemoViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         //check if user is loged in
-        self.performSegueWithIdentifier("showLogin", sender: self)
+            self.performSegueWithIdentifier("showLogin", sender: self)
         
     }
 

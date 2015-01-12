@@ -38,7 +38,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="logoutTapped2" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UC4-2j-kN4"/>
+                                    <action selector="loginTapped" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GGp-BV-URp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Simple Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzm-wB-gBt">
@@ -65,7 +65,7 @@
                         <outlet property="buttonSubmit" destination="tyy-EZ-Qdd" id="NnZ-7e-oCC"/>
                         <outlet property="textPwd" destination="ANS-7V-UbX" id="ByU-pR-oUz"/>
                         <outlet property="textUserName" destination="8zR-ge-uR3" id="EfG-mD-ivf"/>
-                        <segue destination="RQ5-LA-Flo" kind="modal" identifier="showRegistration" id="QRx-9F-vUO"/>
+                        <segue destination="RQ5-LA-Flo" kind="modal" identifier="showRegistration" modalTransitionStyle="flipHorizontal" id="QRx-9F-vUO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -158,18 +158,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx5-41-rI1">
+                                <rect key="frame" x="136" y="507" width="48" height="30"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelTapped:" destination="RQ5-LA-Flo" eventType="touchUpInside" id="X1e-z9-rge"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="f81-QO-olk"/>
                     <connections>
                         <outlet property="textConfirmPwd" destination="1Bg-zz-ty3" id="vQc-b9-dTu"/>
                         <outlet property="textPwd" destination="5Vk-To-ae9" id="9Hq-dl-1v6"/>
                         <outlet property="textUsername" destination="cCw-4A-mKi" id="Xn6-zx-WGE"/>
+                        <segue destination="vXZ-lx-hvc" kind="modal" identifier="showLogin2" modalTransitionStyle="flipHorizontal" id="Uqu-bZ-u2z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Csv-Lm-Jje" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1183" y="1140"/>
+            <point key="canvasLocation" x="1183" y="1135"/>
         </scene>
         <!--App-->
         <scene sceneID="zGw-fp-xev">
@@ -196,4 +207,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="cam-yk-wHb"/>
+    </inferredMetricsTieBreakers>
 </document>

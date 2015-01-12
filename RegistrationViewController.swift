@@ -46,6 +46,12 @@ class RegistrationViewController: UIViewController,UITextFieldDelegate {
         }
         return true
     }
+    
+    @IBAction func cancelTapped(sender: UIButton) {
+        // TODO: Registration
+        println("Tapped Cancel")
+        self.performSegueWithIdentifier("showLogin2", sender: self)
+    }
    
 
     

@@ -29,6 +29,7 @@
 		37B44BD11A606B9C00CCDA12 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B44BD01A606B9C00CCDA12 /* libsqlite3.dylib */; };
 		37B44BD81A606DB800CCDA12 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B44BD61A606DB800CCDA12 /* Bolts.framework */; };
 		37B44BD91A606DB800CCDA12 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B44BD71A606DB800CCDA12 /* Parse.framework */; };
+		37B44BDB1A64142500CCDA12 /* TextFieldCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B44BDA1A64142500CCDA12 /* TextFieldCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		37B44BD21A606C6F00CCDA12 /* SimpleLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleLogin-Bridging-Header.h"; sourceTree = "<group>"; };
 		37B44BD61A606DB800CCDA12 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		37B44BD71A606DB800CCDA12 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		37B44BDA1A64142500CCDA12 /* TextFieldCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				373598581A5ED08800344AB5 /* Main.storyboard */,
 				3735985B1A5ED08800344AB5 /* Images.xcassets */,
 				3735985D1A5ED08800344AB5 /* LaunchScreen.xib */,
+				37B44BDA1A64142500CCDA12 /* TextFieldCheck.swift */,
 				373598521A5ED08800344AB5 /* Supporting Files */,
 			);
 			path = SimpleLogin;
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B44BDB1A64142500CCDA12 /* TextFieldCheck.swift in Sources */,
 				3734D24A1A5F1CE300060CDA /* AppDemoViewController.swift in Sources */,
 				373598571A5ED08800344AB5 /* ViewController.swift in Sources */,
 				37B44BB71A5FE20100CCDA12 /* RegistrationViewController.swift in Sources */,
