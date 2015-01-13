@@ -70,6 +70,28 @@ class TextFieldCheck: NSObject {
         }
     }
     
+    func checkConfirmTextentry(Pwd:String, ConfirmPwd:String) ->Bool
+    {
+        if checkPwdTextentry(Pwd)
+        {
+            if Pwd == ConfirmPwd
+            {
+                return true
+            }
+            else
+            {
+                error = "Password entries are not identical"
+                return false
+            }
+        }
+        else
+        {
+            return false
+        }
+    }
+    
+    
+    
     
     
     func errorMsg() ->String

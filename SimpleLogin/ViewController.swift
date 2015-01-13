@@ -51,15 +51,20 @@ class ViewController: UIViewController,UITextFieldDelegate {
             if (checkTextField.checkPwdTextentry(textPwd.text))
             {
                 println("Parse Login")
+                login()
+               
             }
             else
             {
                 println(checkTextField.errorMsg())
+                allert.showError(checkTextField.errorMsg())
+                
             }
         }
         else
         {
             println(checkTextField.errorMsg())
+            allert.showError(checkTextField.errorMsg())
         }
         
     }
@@ -68,6 +73,22 @@ class ViewController: UIViewController,UITextFieldDelegate {
         // TODO: Registration
         println("Tapped Registration")
         self.performSegueWithIdentifier("showRegistration", sender: self)
+    }
+    
+    func login()
+    {
+        PFUser.logInWithUsernameInBackground(textUserName.text, password:textPwd.text) {
+            (user: PFUser!, error: NSError!) -> Void in
+            if user != nil {
+                // Do stuff after successful login.
+                 allert.showMsg("Success", msg: "You are now loged in")
+            } else {
+                let errorString = error.description
+                // Show the errorString somewhere and let the user try again.
+                println(errorString)
+                allert.showError(errorString)
+            }
+        }
     }
 
 

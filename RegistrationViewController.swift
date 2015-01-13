@@ -61,9 +61,25 @@ class RegistrationViewController: UIViewController,UITextFieldDelegate {
     
     @IBAction func touchRegister(sender: AnyObject) {
         //TODO check textfields
-        
-        register()
-        
+        if (checkTextField.checkUsernameTextentry(textUsername.text))
+        {
+            if (checkTextField.checkConfirmTextentry(textPwd.text, ConfirmPwd: textConfirmPwd.text))
+            {
+                println("Parse Registration")
+                
+                register()
+            }
+            else
+            {
+                println(checkTextField.errorMsg())
+                allert.showError(checkTextField.errorMsg())
+            }
+        }
+        else
+        {
+            println(checkTextField.errorMsg())
+            allert.showError(checkTextField.errorMsg())
+        }
         
     }
     
@@ -79,9 +95,10 @@ class RegistrationViewController: UIViewController,UITextFieldDelegate {
             if error == nil {
                 // Hooray! Let them use the app now.
             } else {
-                //let errorString = error.userInfo["error"] as NSString
+                let errorString = error.description
                 // Show the errorString somewhere and let the user try again.
-                println("TRegistration has failed")
+                println(errorString)
+                allert.showError(errorString)
             }
         }
     }

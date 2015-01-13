@@ -30,6 +30,7 @@
 		37B44BD81A606DB800CCDA12 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B44BD61A606DB800CCDA12 /* Bolts.framework */; };
 		37B44BD91A606DB800CCDA12 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B44BD71A606DB800CCDA12 /* Parse.framework */; };
 		37B44BDB1A64142500CCDA12 /* TextFieldCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B44BDA1A64142500CCDA12 /* TextFieldCheck.swift */; };
+		37B44BDD1A655A4100CCDA12 /* AllertHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B44BDC1A655A4100CCDA12 /* AllertHandling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		37B44BD61A606DB800CCDA12 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		37B44BD71A606DB800CCDA12 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		37B44BDA1A64142500CCDA12 /* TextFieldCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCheck.swift; sourceTree = "<group>"; };
+		37B44BDC1A655A4100CCDA12 /* AllertHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllertHandling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				3735985B1A5ED08800344AB5 /* Images.xcassets */,
 				3735985D1A5ED08800344AB5 /* LaunchScreen.xib */,
 				37B44BDA1A64142500CCDA12 /* TextFieldCheck.swift */,
+				37B44BDC1A655A4100CCDA12 /* AllertHandling.swift */,
 				373598521A5ED08800344AB5 /* Supporting Files */,
 			);
 			path = SimpleLogin;
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B44BDD1A655A4100CCDA12 /* AllertHandling.swift in Sources */,
 				37B44BDB1A64142500CCDA12 /* TextFieldCheck.swift in Sources */,
 				3734D24A1A5F1CE300060CDA /* AppDemoViewController.swift in Sources */,
 				373598571A5ED08800344AB5 /* ViewController.swift in Sources */,
